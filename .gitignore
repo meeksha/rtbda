@@ -1,0 +1,422 @@
+# ==========================================
+# SECRETS AND ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.keystore
+secrets/
+credentials/
+credentials.json
+service-account*.json
+token.json
+tokens.json
+*.secret
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+ehthumbs.db
+
+# ==========================================
+# EDITORS AND IDEs
+# ==========================================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.code-workspace
+.history/
+.fleet/
+.zed/
+
+# ==========================================
+# PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+.python-version
+.python_history
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.dmypy.json
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+pip-wheel-metadata/
+share/python-wheels/
+wheels/
+*.egg
+*.egg-info/
+.eggs/
+develop-eggs/
+dist/
+build/
+site-packages/
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+Pipfile.lock
+# Keep Pipfile.lock if your project intentionally tracks it.
+# Keep requirements.txt and pyproject.toml.
+
+# ==========================================
+# JUPYTER AND NOTEBOOKS
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==========================================
+# DATA SCIENCE AND MACHINE LEARNING
+# ==========================================
+data/
+datasets/
+raw_data/
+processed_data/
+artifacts/
+checkpoints/
+runs/
+mlruns/
+wandb/
+lightning_logs/
+tensorboard/
+outputs/
+models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.keras
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.tflite
+*.pb
+*.model
+*.weights
+*.npy
+*.npz
+*.parquet
+*.feather
+*.arrow
+*.rds
+*.RData
+*.mat
+*.dta
+
+# ==========================================
+# JAVASCRIPT / TYPESCRIPT / NODE
+# ==========================================
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.parcel-cache/
+.turbo/
+.next/
+.nuxt/
+.svelte-kit/
+.output/
+.vercel/
+.netlify/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# JAVA / JVM / ANDROID / GRADLE
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.dex
+*.apk
+*.aab
+*.aar
+.gradle/
+build/
+target/
+out/
+bin/
+.cxx/
+local.properties
+captures/
+.externalNativeBuild/
+.kotlin/
+
+# ==========================================
+# C / C++ / CMAKE / MAKE
+# ==========================================
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.so
+*.dylib
+*.app
+*.out
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.gch
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+Makefile.generated
+Debug/
+Release/
+ipch/
+
+# ==========================================
+# C# / .NET
+# ==========================================
+[Bb]in/
+[Oo]bj/
+.vs/
+TestResults/
+*.userprefs
+*.cache
+project.lock.json
+artifacts/
+
+# ==========================================
+# PHP / COMPOSER
+# ==========================================
+vendor/
+composer.phar
+.phpunit.cache/
+.php-cs-fixer.cache
+.phpactor.json
+.phpstorm.meta.php/
+
+# ==========================================
+# RUBY
+# ==========================================
+.bundle/
+vendor/bundle/
+vendor/cache/
+vendor/ruby/
+*.gem
+.ruby-version.local
+
+# ==========================================
+# R / RSTUDIO
+# ==========================================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+renv/library/
+renv/staging/
+
+# ==========================================
+# GO
+# ==========================================
+vendor/
+*.test
+*.out
+coverage.txt
+
+# ==========================================
+# RUST
+# ==========================================
+target/
+Cargo.lock
+# Keep Cargo.lock for applications; ignore it only when appropriate
+# for reusable libraries.
+
+# ==========================================
+# SWIFT / XCODE
+# ==========================================
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+Package.resolved
+
+# ==========================================
+# DATABASES AND LOCAL DATA
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-wal
+*.sqlite-shm
+*.mdb
+*.accdb
+*.bak
+*.backup
+*.dump
+*.sql.gz
+*.mysql
+*.log
+
+# ==========================================
+# LOGS AND TEMPORARY FILES
+# ==========================================
+logs/
+log/
+tmp/
+temp/
+.cache/
+*.log.*
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*.swp
+*.lock.tmp
+*.pid
+*.seed
+
+# ==========================================
+# BUILD OUTPUT AND GENERATED FILES
+# ==========================================
+dist/
+build/
+release/
+debug/
+generated/
+.gen/
+.cache-loader/
+
+# ==========================================
+# DOCKER AND LOCAL INFRASTRUCTURE
+# ==========================================
+.docker/
+docker-data/
+*.pid
+*.sock
+
+# ==========================================
+# CLOUD AND DEPLOYMENT
+# ==========================================
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.serverless/
+.aws-sam/
+azureProfile.json
+pulumi.*.yaml
+cdk.out/
+
+# ==========================================
+# TESTING AND COVERAGE
+# ==========================================
+.coverage
+coverage/
+htmlcov/
+test-results/
+playwright-report/
+test-output/
+.nyc_output/
+
+# ==========================================
+# DOCUMENTS AND EXPORTS — OPTIONAL
+# Uncomment only if these are generated/private.
+# ==========================================
+# *.pdf
+# *.docx
+# *.xlsx
+# *.pptx
+# *.csv
+# *.zip
+# *.7z
+# *.rar
+
+# ==========================================
+# LARGE MEDIA AND GENERATED ASSETS — OPTIONAL
+# Uncomment if these are generated or unsuitable
+# for Git; keep source assets you actually need.
+# ==========================================
+# *.mp4
+# *.mov
+# *.avi
+# *.mkv
+# *.wav
+# *.mp3
+# *.psd
+# *.ai
+# *.blend
+
+# ==========================================
+# LOCAL CONFIGURATION
+# ==========================================
+*.local
+config.local.*
+settings.local.*
+secrets.local.*
+.DS_Store?
+*.stackdump
+EOF
